@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.css'],
 })
 export class SkillsComponent {
-  imageUrl: string = 'assets/img/avatar.png';
+
 }

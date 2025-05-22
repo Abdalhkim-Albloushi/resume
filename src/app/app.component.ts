@@ -26,12 +26,6 @@ declare var bootstrap: any;
 })
 export class AppComponent implements AfterViewInit {
   ngAfterViewInit(): void {
-   
-    if (typeof bootstrap !== 'undefined') {
-      new bootstrap.ScrollSpy(document.body, {
-        target: '#navbar',
-        offset: 74
-      });
-    }
+
   }
 }
